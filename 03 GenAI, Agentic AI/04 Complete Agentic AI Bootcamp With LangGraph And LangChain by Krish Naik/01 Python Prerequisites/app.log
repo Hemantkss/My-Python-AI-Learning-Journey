@@ -1,0 +1,8 @@
+2025-08-31 11:41:38-model1-DEBUG-This is a debug message from model1
+2025-08-31 11:41:38-model2-WARNING-This is a warning message from model2
+2025-08-31 11:41:38-model2-ERROR-This is an error message from model2
+2025-08-31 12:07:39-ArithmeticAPP-DEBUG-Adding 10 and 5 to get 15
+2025-08-31 12:07:39-ArithmeticAPP-DEBUG-Subtracting 5 from 10 to get 5
+2025-08-31 12:07:39-ArithmeticAPP-DEBUG-Multiplying 10 and 5 to get 50
+2025-08-31 12:07:39-ArithmeticAPP-DEBUG-Dividing 10 by 5 to get 2.0
+2025-08-31 12:07:39-ArithmeticAPP-ERROR-Attempted to divide by zero
