@@ -1,0 +1,27 @@
+# ipykernel
+# numpy
+# pandas
+pydantic
+langchain
+langgraph
+python-dotenv
+langchain-core
+langchain-community
+langchain-openai
+# langchain-text-splitters
+# langchain_chroma
+# pypdf
+# bs4
+# arxiv
+# pymupdf
+# wikipedia
+# chromadb
+# faiss-cpu
+# beautifulsoup4
+# streamlit
+fastapi
+uvicorn
+# langserve[all]
+langgraph-cli[inmem]
+# tavily-python
+watchdog
