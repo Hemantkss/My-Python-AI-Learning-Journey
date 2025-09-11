@@ -1,0 +1,68 @@
+Documents -> Chunks -> Embeddings -> Vector DBs -> Retrieval -> Augmentation -> Generation
+
+
+🌟 Core Components in RAG
+1.Documents / Knowledge Source
+
+      1.The data you want your AI to learn from (PDFs, text files, websites, databases, etc.).
+
+      2.Without this, the model only knows its training data.
+
+
+
+2.Chunking
+
+1.Splitting large documents into smaller, meaningful pieces.
+
+2.Why? Because LLMs can’t handle super long text at once.
+
+3.Example: A 100-page PDF → broken into 300 chunks of ~500 tokens each.
+
+
+
+3.Embeddings
+
+1.Each chunk is converted into a vector (list of numbers).
+
+2.These vectors capture the meaning of text, so similar meanings are close in vector space.
+
+3.Example: “car” and “automobile” → vectors very close.
+
+
+
+4.Vector Database
+
+1.Special DBs (like FAISS, Pinecone, Weaviate, Chroma) that store embeddings.
+
+2.Lets you search semantically instead of keyword search.
+
+3.Example: Ask “What is AI?” → It finds chunks about “Artificial Intelligence” even if wording is different.
+
+
+
+5.Retrieval
+
+1.When a user asks a question, the system retrieves the top-k most relevant chunks from the vector DB.
+
+2.Example: Ask “What is Newton’s 2nd law?” → retrieves the exact chunk from the physics PDF.
+
+
+
+6.Augmentation
+
+1.The retrieved chunks are added to the user’s question before sending it to the LLM.
+
+2.This is where the LLM gets “extra knowledge”.
+
+
+
+7.Generation (LLM Response)
+
+1.Finally, the LLM generates the answer using:
+
+    1.The question
+
+    2.The retrieved context
+
+2.Result = Accurate, domain-specific answer.
+
