@@ -1,0 +1,53 @@
+ipykernel
+numpy
+pandas
+matplotlib
+# pydantic
+langchain
+langgraph
+langgraph-supervisor
+python-dotenv
+langchain-core
+langchain-community
+langchain-openai
+langchain-text-splitters
+langchain-experimental
+langchain-tavily
+langchain_experimental
+langsmith 
+openai
+# langchain_chroma
+pypdf
+# bs4
+arxiv
+pymupdf
+wikipedia
+chromadb
+faiss-cpu
+# langchain-astradb
+# langchain-pinecone
+# astrapy
+# pinecone
+# beautifulsoup4
+# streamlit
+# fastapi
+# uvicorn
+# langserve[all]
+# langgraph-cli[inmem]
+# tavily-python
+# watchdog
+tiktoken
+python-docx
+docx2txt
+unstructured
+openpyxl
+msoffcrypto-tool
+jq
+
+# ***************
+# Embeddings Models
+# ***************
+
+# Huggingface
+langchain-huggingface
+sentence-transformers
